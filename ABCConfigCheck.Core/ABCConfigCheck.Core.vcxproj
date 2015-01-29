@@ -87,10 +87,47 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\CommentRule.h" />
+    <ClInclude Include="include\ConfigHandler.h" />
+    <ClInclude Include="include\DeviceVerifier.h" />
+    <ClInclude Include="include\ErrorLog.h" />
+    <ClInclude Include="include\IRule.h" />
+    <ClInclude Include="include\IProtocol.h" />
+    <ClInclude Include="include\IVerifier.h" />
+    <ClInclude Include="include\LE.h" />
+    <ClInclude Include="include\LEInfo.h" />
+    <ClInclude Include="include\LeNameRule.h" />
+    <ClInclude Include="include\LETable.h" />
     <ClInclude Include="include\OptionsParser.h" />
+    <ClInclude Include="include\Port.h" />
+    <ClInclude Include="include\PortHeaderRule.h" />
+    <ClInclude Include="include\PortVerifier.h" />
+    <ClInclude Include="include\Property.h" />
+    <ClInclude Include="include\PropertyRule.h" />
+    <ClInclude Include="include\SemanticVerifier.h" />
+    <ClInclude Include="include\VirtualLe.h" />
+    <ClInclude Include="include\VirtualLETable.h" />
+    <ClInclude Include="include\WhitespaceRule.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CommentRule.cpp" />
+    <ClCompile Include="src\ConfigHandler.cpp" />
+    <ClCompile Include="src\DeviceVerifier.cpp" />
+    <ClCompile Include="src\ErrorLog.cpp" />
+    <ClCompile Include="src\LE.cpp" />
+    <ClCompile Include="src\LEInfo.cpp" />
+    <ClCompile Include="src\LeNameRule.cpp" />
+    <ClCompile Include="src\LETable.cpp" />
     <ClCompile Include="src\OptionsParser.cpp" />
+    <ClCompile Include="src\Port.cpp" />
+    <ClCompile Include="src\PortHeaderRule.cpp" />
+    <ClCompile Include="src\PortVerifier.cpp" />
+    <ClCompile Include="src\Property.cpp" />
+    <ClCompile Include="src\PropertyRule.cpp" />
+    <ClCompile Include="src\SemanticVerifier.cpp" />
+    <ClCompile Include="src\VirtualLe.cpp" />
+    <ClCompile Include="src\VirtualLETable.cpp" />
+    <ClCompile Include="src\WhitespaceRule.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

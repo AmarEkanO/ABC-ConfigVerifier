@@ -4,19 +4,19 @@ using namespace std;
 
 OptionsParser::OptionsParser(int argc, char* argv[])
 {
+	fnDevicesIni = "";
+	fnPortsIni = "";
+
 	if(argc > 2 && argc <= 5)
 	{
 		for(int i = 1; i < argc; ++i)
 		{
 			string param(argv[i]);
 			if(param == "-d")
-				//fnDevicesIni = ++i < argc ? argv[i] : "";
-					fnDevicesIni = argv[++i];
+				fnDevicesIni = ++i < argc ? argv[i] : fnDevicesIni;
 			if(param == "-p")
-				//fnPortsIni = ++i < argc ? argv[i] : "";
-					fnPortsIni = argv[++i];
+				fnPortsIni = ++i < argc ? argv[i] : fnPortsIni;
 		}
-
 	}
 	else
 	{

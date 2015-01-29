@@ -11,10 +11,32 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\CommentRule_test.cpp" />
+    <ClCompile Include="src\ConfigHandler_test.cpp" />
+    <ClCompile Include="src\DeviceVerifier_test.cpp" />
+    <ClCompile Include="src\ErrorLog_tests.cpp" />
+    <ClCompile Include="src\LEInfo_test.cpp" />
+    <ClCompile Include="src\LeNameRule_test.cpp" />
+    <ClCompile Include="src\LETable_test.cpp" />
+    <ClCompile Include="src\LE_tests.cpp" />
     <ClCompile Include="src\OptionParser_test.cpp" />
+    <ClCompile Include="src\PortHeaderRule_test.cpp" />
+    <ClCompile Include="src\PortVerifier_test.cpp" />
+    <ClCompile Include="src\Port_test.cpp" />
+    <ClCompile Include="src\PropertyRule_test.cpp" />
+    <ClCompile Include="src\Property_tests.cpp" />
+    <ClCompile Include="src\UtilityFunc.cpp" />
+    <ClCompile Include="src\VirtualLETable_test.cpp" />
+    <ClCompile Include="src\VirtualLe_tests.cpp" />
+    <ClCompile Include="src\WhitespaceRule_test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\ConfigHandler_test.h" />
+    <ClInclude Include="include\DeviceVerifier_test.h" />
+    <ClInclude Include="include\LE_test.h" />
     <ClInclude Include="include\OptionParser_test.h" />
+    <ClInclude Include="include\PortVerifier_test.h" />
+    <ClInclude Include="include\UtilityFunc.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A9A50B99-BBE9-41F5-AE0E-215D47B80AFB}</ProjectGuid>
